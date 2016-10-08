@@ -1,0 +1,39 @@
+    1  git init
+    2  echo drag >>index.txt
+    3  git commit -a -m 'frist'
+    4  git add .
+    5  git commit -m "first commit"
+    6  git log
+    7  git checkout -b
+    8  git checkout -b dev
+    9  echo limit >> index.txt
+   10  git commit -a -m "write limit"
+   11  clesr
+   12  clear
+   13  git merge
+   14  history >> history.txt
+    1  git init
+    2  echo drag >>index.txt
+    3  git commit -a -m 'frist'
+    4  git add .
+    5  git commit -m "first commit"
+    6  git log
+    7  git checkout -b
+    8  git checkout -b dev
+    9  echo limit >> index.txt
+   10  git commit -a -m "write limit"
+   11  clesr
+   12  clear
+   13  git merge
+   14  history >> history.txt
+   15  git checkout master
+   16  echo util >>index.txt
+   17  git commit -a -m "write util"
+   18  git merge
+   19  git merge dev
+   20  cat index.txt
+   21  history >> history.txt
+    1  vi index.txt
+    2  git add index.txt
+    3  git commit -m "new"
+    4  history >> history.txt
