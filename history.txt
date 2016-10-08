@@ -37,3 +37,38 @@
     2  git add index.txt
     3  git commit -m "new"
     4  history >> history.txt
+    1  vi index.txt
+    2  git add index.txt
+    3  git commit -m "new"
+    4  history >> history.txt
+    5  clear
+    6  git checkout dev 
+    7  cat index.txt
+    8  Is
+    9  is
+   10  js
+   11  Js
+   12  ls
+   13  git commit -a -m "master.js"
+   14  git commit -m "master.js"
+   15  clear
+   16  git checkout dev
+   17  cat index.txt
+   18  ls
+   19  git commit -a -m "dev.js"
+   20  git add .
+   21  git commit -m "dev.js"
+   22  git checkout master
+   23  touch maaster.js
+   24  cat index.txt
+   25  ls
+   26  git commit -a -m "master.js"
+   27  git add .
+   28  git commit -m "master.js"
+   29  git merge dev
+   30  ls
+   31  git log
+   32  git log
+   33  git log
+   34  git log --graph --decorate
+   35  history >> history.txt
